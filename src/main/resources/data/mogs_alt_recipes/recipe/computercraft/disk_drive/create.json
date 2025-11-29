@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "computercraft"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        "###",
+        "#R#",
+        "#R#"
+    ],
+    "key": {
+        "#": {"item": "create:andesite_alloy"},
+        "R": {"tag": "c:dusts/redstone"}
+    },
+    "result": {
+        "item": "computercraft:disk_drive",
+        "count": 1
+    }
+}

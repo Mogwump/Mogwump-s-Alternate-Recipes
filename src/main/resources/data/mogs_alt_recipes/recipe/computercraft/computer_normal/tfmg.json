@@ -1,0 +1,32 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "computercraft"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "tfmg"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        "###",
+        "#C#",
+        "#G#"
+    ],
+    "key": {
+        "#": {"item": "create:andesite_alloy"},
+        "C": {"tag": "tfmg:circuit_board"},
+        "G": {"item": "c:glass_panes"}
+    },
+    "result": {
+        "item": "computercraft:computer_normal",
+        "count": 1
+    }
+}

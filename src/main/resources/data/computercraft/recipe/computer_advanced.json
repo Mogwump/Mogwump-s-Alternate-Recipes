@@ -1,0 +1,35 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "computercraft"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:mod_loaded",
+                "modid": "tfmg"
+            }
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        "###",
+        "#R#",
+        "#G#"
+    ],
+    "key": {
+        "#": {"tag": "c:ingots/gold"},
+        "R": {"tag": "c:dusts/redstone"},
+        "G": {"tag": "c:glass_panes"}
+    },
+    "result": {
+        "item": "minecraft:air",
+        "count": 1
+    }
+}

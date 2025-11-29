@@ -1,0 +1,28 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "computercraft"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        "###",
+        "#A#",
+        "#G#"
+    ],
+    "key": {
+        "#": {"item": "create:andesite_alloy"},
+        "A": {"item": "minecraft:golden_apple"},
+        "G": {"tag": "c:glass_panes"}
+    },
+    "result": {
+        "item": "computercraft:pocket_computer_normal",
+        "count": 1
+    }
+}
