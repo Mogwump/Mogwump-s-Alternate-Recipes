@@ -22,8 +22,8 @@
     ],
     "key": {
         "#": {"tag": "c:ingots/gold"},
-        "C": {"tag": "tfmg:circuit_board"},
-        "G": {"item": "c:glass_panes"}
+        "C": {"item": "tfmg:circuit_board"},
+        "G": {"tag": "c:glass_panes"}
     },
     "result": {
         "id": "computercraft:computer_advanced",
