@@ -22,11 +22,11 @@
     ],
     "key": {
         "#": {"item": "create:andesite_alloy"},
-        "C": {"tag": "tfmg:circuit_board"},
+        "C": {"item": "tfmg:circuit_board"},
         "G": {"item": "c:glass_panes"}
     },
     "result": {
-        "item": "computercraft:computer_normal",
+        "id": "computercraft:computer_normal",
         "count": 1
     }
 }

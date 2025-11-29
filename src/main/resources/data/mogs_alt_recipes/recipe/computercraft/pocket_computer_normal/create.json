@@ -22,7 +22,7 @@
         "G": {"tag": "c:glass_panes"}
     },
     "result": {
-        "item": "computercraft:pocket_computer_normal",
+        "id": "computercraft:pocket_computer_normal",
         "count": 1
     }
 }

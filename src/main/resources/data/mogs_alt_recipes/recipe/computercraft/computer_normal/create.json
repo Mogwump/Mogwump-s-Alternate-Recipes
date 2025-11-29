@@ -29,7 +29,7 @@
         "G": {"tag": "c:glass_panes"}
     },
     "result": {
-        "item": "computercraft:computer_normal",
+        "id": "computercraft:computer_normal",
         "count": 1
     }
 }

@@ -9,19 +9,20 @@
             "modid": "create"
         }
     ],
+
     "type": "minecraft:crafting_shaped",
     "category": "redstone",
     "pattern": [
         "###",
-        "#R#",
-        "#R#"
+        "#G#",
+        "###"
     ],
     "key": {
-        "#": {"item": "create:andesite_alloy"},
-        "R": {"tag": "c:dusts/redstone"}
+        "#": {"item": "minecraft:stone"},
+        "G": {"tag": "c:glass_panes"}
     },
-    "result": {
-        "id": "computercraft:disk_drive",
+    "result": { 
+        "id": "minecraft:air",
         "count": 1
     }
 }
