@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "computercraft"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        "###",
+        "#R#",
+        "###"
+    ],
+    "key": {
+        "#": {"item": "minecraft:stone"},
+        "R": {"tag": "c:dusts/redstone"}
+    },
+    "result": {
+        "item": "minecraft:air",
+        "count": 1
+    }
+}

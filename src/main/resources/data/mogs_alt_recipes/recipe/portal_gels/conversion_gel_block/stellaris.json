@@ -1,0 +1,23 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "portal_gels"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "stellaris"
+        }
+    ],
+    
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {"item": "minecraft:slime_block"},
+        {"item": "stellaris:moon_cobblestone"}
+    ],
+    "result": {
+        "id": "portal_gels:conversion_gel_block",
+        "count": 1
+    }
+}

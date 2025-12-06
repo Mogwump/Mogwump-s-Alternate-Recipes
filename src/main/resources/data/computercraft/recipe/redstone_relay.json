@@ -1,0 +1,28 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "computercraft"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        "SRS",
+        "RCR",
+        "SRS"
+    ],
+    "key": {
+        "C": {"item": "computercraft:wired_modem"},
+        "R": {"tag": "c:dusts/redstone"},
+        "S": {"item": "minecraft:stone"}
+    },
+    "result": {
+        "item": "minecraft:air",
+        "count": 1
+    }
+}

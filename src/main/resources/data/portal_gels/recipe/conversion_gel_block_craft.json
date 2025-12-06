@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "portal_gels"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "stellaris"
+        }
+    ],
+    
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "minecraft:slime_block"
+        },
+        {
+            "item": "minecraft:end_stone"
+        }
+    ],
+    "result": {
+        "id": "minecraft:air",
+        "count": 1
+    }
+}
