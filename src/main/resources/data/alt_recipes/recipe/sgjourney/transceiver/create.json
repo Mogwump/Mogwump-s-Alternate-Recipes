@@ -1,0 +1,29 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "sgjourney"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "ICC",
+        "RQC",
+        "ICC"
+    ],
+    "key": {
+        "I": {"item": "minecraft:iron_ingot"},
+        "C": {"item": "minecraft:copper_ingot"},
+        "R": {"item": "create:transmitter"},
+        "Q": {"item": "create:electron_tube"}
+    },
+    "result": {
+        "id": "sgjourney:transceiver",
+        "count": 1
+    }
+}
