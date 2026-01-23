@@ -1,0 +1,49 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "ars_nouveau"
+        }
+    ],
+    
+    "type": "ars_nouveau:enchanting_apparatus",
+    "keepNbtOfReagent": false,
+    "pedestalItems": [
+        {
+            "item": "minecraft:redstone"
+        },
+        {
+            "item": "minecraft:redstone"
+        },
+        {
+            "item": "minecraft:redstone"
+        },
+        {
+            "item": "minecraft:redstone"
+        },
+        {
+            "item": "minecraft:glowstone_dust"
+        },
+        {
+            "item": "minecraft:glowstone_dust"
+        },
+        {
+            "item": "minecraft:glowstone_dust"
+        },
+        {
+            "item": "minecraft:glowstone_dust"
+        }
+    ],
+    "reagent": {
+        "item": "minecraft:diamond"
+    },
+    "result": {
+        "count": 1,
+        "id": "projecte:philosophers_stone"
+    },
+    "sourceCost": 10000
+}
