@@ -1,4 +1,4 @@
-# Mogwump's Alternate Recipes
+# Subtle Alternate Recipes
 
 If you an avid tech mod enthusiast, you have probably come across the terms "vertical scalability" and "horizontal scalability". Put simply, vertical scaling is making your one process go faster, whereas horizontal scaling is just building more.
 
